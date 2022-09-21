@@ -29,9 +29,9 @@ export const config = {
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "68OImIEwoFCVvQ7vA4Db7atm8BUD3pGPv8F00GmO8ok",
       // 所在省份
-      province: "四川",
+      province: "重庆",
       // 所在城市
-      city: "成都",
+      city: "长寿",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '09-13',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
