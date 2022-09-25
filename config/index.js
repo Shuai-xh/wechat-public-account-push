@@ -27,11 +27,11 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o6fi75z0Zd9KQxt5ZEpeJVgMJLlw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "68OImIEwoFCVvQ7vA4Db7atm8BUD3pGPv8F00GmO8ok",
+      useTemplateId: "smVWjO1MzNF6PunvZIsHPUrE6MkctNqiv5bhO-k1vco",
       // 所在省份
-      province: "重庆",
+      province: "四川",
       // 所在城市
-      city: "重庆",
+      city: "成都",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '09-13',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -41,18 +41,18 @@ export const config = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "小猴子", "year": "1999", "date": "09-13"},
+        {"type": "*生日", "name": "小猴子", "year": "1999", "date": "08-02"},
         // {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         // {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-        {"type": "节日", "name": "被搭讪纪念日", "year": "2022", "date": "09-01"},
+        // {"type": "节日", "name": "被搭讪纪念日", "year": "2022", "date": "09-01"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
         {"keyword": "love_day", date: "2022-09-08"},
         // 结婚纪念日
-        {"keyword": "marry_day", date: "2022-09-09"},
+        // {"keyword": "marry_day", date: "2022-09-09"},
         // 退伍日
         // {"keyword": "ex_day", date: "2022-09-10"},
       ]
