@@ -27,7 +27,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o6fi75z0Zd9KQxt5ZEpeJVgMJLlw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "CRnGOir6PXkZJqYw_gQhOSbGy__HGomEYmZ7Db78qsg",
+      useTemplateId: "x8_Cj0XHxfNOXkSWqgIfSMmq4y8kPuvs6U9A4co-i0c",
       // 所在省份
       province: "四川",
       // 所在城市
@@ -37,7 +37,7 @@ export const config = {
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://wangxinleo.cn",
+      openUrl: "",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
@@ -50,7 +50,7 @@ export const config = {
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        {"keyword": "love_day", date: "2022-09-08"},
+        {"keyword": "love_day", date: "2022-01-01"},
         // 结婚纪念日
         // {"keyword": "marry_day", date: "2022-09-09"},
         // 退伍日
